@@ -1,4 +1,4 @@
-local function PrintDodge()
+local function printDodge()
     local enemies = EntityList.Enemies()
 
     for i, ent in ipairs(enemies) do
@@ -8,3 +8,5 @@ local function PrintDodge()
         end
     end
 end
+
+cb_add(cb.printDodge, printDodge)
