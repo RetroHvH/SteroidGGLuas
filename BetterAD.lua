@@ -10,3 +10,5 @@ local function betterAutoDodge()
         end
     end
 end
+
+cb_add(cb.betterAutoDodge, betterAutoDodge)
