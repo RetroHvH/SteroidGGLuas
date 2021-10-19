@@ -14,3 +14,5 @@ local function dacoDodge()
         end
     end
 end
+
+cb_add(cb.dacoDodge, dacoDodge)
